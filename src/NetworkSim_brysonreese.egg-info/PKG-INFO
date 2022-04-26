@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: NetworkSim-brysonreese
-Version: 0.0.1
+Version: 0.0.3
 Summary: A Network Simulator that randomly generates and calculates minimum paths in a configurable random doubly-weighted graph
 Home-page: https://github.com/brysonreese/CS491-FinalProject
 Author: Bryson Reese
@@ -34,6 +34,11 @@ Then to install the required packages, simply run:
     pip install -r requirements.txt
 Once all required libraries are installed, simply run:
 
+    python src/networksim_package/NetworkSim.py
+
+Or change directory into the packag directory by running:
+
+    cd src/networksim_package/
     python NetworkSim.py
 ___
 After reading all of the initial prompts, please input the parameters that one would like to use to run the simulations. Some lightweight parameters that one can use to test the functionality can be found below:
