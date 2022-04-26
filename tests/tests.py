@@ -1,6 +1,5 @@
 import unittest
-import NetworkSim as NS
-unittest.TestLoader.sortTestMethodsUsing = None
+from src.networksim_package import NetworkSim as NS
 
 class testNetworkCreation(unittest.TestCase):
     def setUp(self):

@@ -2,4 +2,6 @@
 /NetworkSim
 /env
 .coverage
+/src/networksim_package/__pycache__
+/tests/__pycache__
 /__pycache__
