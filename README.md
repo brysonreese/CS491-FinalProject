@@ -17,6 +17,11 @@ Then to install the required packages, simply run:
     pip install -r requirements.txt
 Once all required libraries are installed, simply run:
 
+    python src/networksim_package/NetworkSim.py
+
+Or change directory into the packag directory by running:
+
+    cd src/networksim_package/
     python NetworkSim.py
 ___
 After reading all of the initial prompts, please input the parameters that one would like to use to run the simulations. Some lightweight parameters that one can use to test the functionality can be found below:
